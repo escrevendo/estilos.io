@@ -48,3 +48,7 @@ html, body{
 .rodape{
 	padding-bottom: 150px
 	}
+	
+.botao-adesao{background: #004474; color: #ffffff; padding: 15px; border-radius: 4px; box-shadow: 3px 4px rgba(0, 0, 0, 0.22); width: 100%; text-align: center; text-decoration: none; max-width: 375px; min-width: 375px; display: inline-block;}
+
+.botao-inscricao{background: #004474; color: #ffffff; padding: 15px; border-radius: 4px; box-shadow: 3px 4px rgba(0, 0, 0, 0.22); width: 100%; text-align: center; text-decoration: none; max-width: 375px; min-width: 375px; display: inline-block;}
