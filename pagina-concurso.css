@@ -62,9 +62,9 @@ html, body{
 @media all and (max-width:820px){
 	
 	
-	.botao-inscricao{display:block;}
+	.botao-inscricao{display:block;     min-width: auto;}
 	
-	.botao-adesao{display:block;}
+	.botao-adesao{display:block;     min-width: auto;}
 	
 	.div-adesao{width:100%; margin-bottom: 20px;}
 
