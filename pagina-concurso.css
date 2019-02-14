@@ -1,0 +1,50 @@
+.painel{
+	border-radius:0px !important;
+	border:0px !important;
+	background:url("https://www.escrevendoofuturo.org.br/arquivos/7940/bg-olp.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+	
+.bloco-conheca-a-olimpiada{
+	display:none;
+	}
+	
+.painel-slides{
+	display:none;
+	}
+
+.paginacao-slide{
+	display:none;
+	}
+	
+html, body{
+	background-color: #30d4f9;
+	}
+	
+.rodape{
+	background:#ffffff;
+	padding-top:20px;
+	}
+	
+.breadcumb.verde a{
+	color:#004473;
+	}
+	
+.verde, .verde>a{
+	color:#004473 !important;
+	}
+	
+.botao-edicao-concurso.selecionado>a {
+	background-color: #004473;
+	color: #ffffff;
+	}
+
+.botao-edicao-concurso>a{
+	color:#004473;
+	}
+
+.rodape{
+	padding-bottom: 150px
+	}
