@@ -53,11 +53,21 @@ html, body{
 
 .botao-inscricao{background: #004474; color: #ffffff; padding: 15px; border-radius: 4px; box-shadow: 3px 4px rgba(0, 0, 0, 0.22); width: 100%; text-align: center; text-decoration: none; max-width: 375px; min-width: 375px; display: inline-block;}
 
+
+.div-adesao{width:50%; float: left; padding: 15px;}
+
+.div-inscricao{width:50%; float: left; padding: 15px;}
+
+
 @media all and (max-width:820px){
 	
 	
 	.botao-inscricao{display:block;}
 	
 	.botao-adesao{display:block;}
+	
+	.div-adesao{width:100%; margin-bottom: 20px;}
+
+.div-inscricao{width:100%; margin-bottom: 20px;}
 	
 }
