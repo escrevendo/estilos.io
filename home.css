@@ -25,6 +25,16 @@
 	
 	@media (min-width:990px){
 		
+		
+		.base-olimpiada div .card-verde div:first-child, .base-recursos .card-bordo>a>div:first-child, .base-formacao-continua .card-formacao>a>div:first-child{height:auto;}
+		
+		
+		.base-recursos .card-bordo img, .base-olimpiada .card-verde img, .base-formacao-continua .card-formacao img{
+		    width: 100%;
+    height: 160px;
+		object-fit: cover;}
+		
+		
 		.img-colorido {
 	max-height: 330px !important; 
 	height: 330px !important; 
