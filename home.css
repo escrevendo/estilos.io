@@ -23,11 +23,8 @@
 	color:#004474 !important;
 	}
 	
-	@media (min-width:990px){
-		
-		
-		.base-olimpiada div .card-verde div:first-child, .base-recursos .card-bordo>a>div:first-child, .base-formacao-continua .card-formacao>a>div:first-child{height:auto;}
-		
+	
+	@media (max-width:990px){
 		
 		.base-recursos .card-bordo img, .base-olimpiada .card-verde img, .base-formacao-continua .card-formacao img{
 		    width: 100%;
@@ -35,6 +32,16 @@
 		object-fit: cover;}
 		
 		.base-recursos .card-bordo .moldura, .base-olimpiada .card-verde .moldura, .base-formacao-continua .card-formacao .moldura{display:none;}
+		
+	}
+	
+	@media (min-width:990px){
+		
+		
+		.base-olimpiada div .card-verde div:first-child, .base-recursos .card-bordo>a>div:first-child, .base-formacao-continua .card-formacao>a>div:first-child{height:auto;}
+		
+		
+		
 		
 		
 		.img-colorido {
