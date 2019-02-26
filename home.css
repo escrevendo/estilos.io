@@ -34,6 +34,8 @@
     height: 160px;
 		object-fit: cover;}
 		
+		.base-recursos .card-bordo .moldura, .base-olimpiada .card-verde .moldura, .base-formacao-continua .card-formacao .moldura{display:none;}
+		
 		
 		.img-colorido {
 	max-height: 330px !important; 
