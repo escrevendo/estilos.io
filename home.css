@@ -1,0 +1,57 @@
+
+
+.card-verde .moldura{
+	display:none;
+	} 
+	
+.card-verde{
+	background:#00cff7 !important;
+	color:#004474 !important;
+	}
+
+.card-verde h3{
+	color:#004474 !important;
+	}
+
+.card-verde p{
+	color:#004474 !important;
+	}
+
+
+
+.texto-olimpiada h3{
+	color:#004474 !important;
+	}
+	
+	@media (min-width:990px){
+		
+		.img-colorido {
+	max-height: 330px !important; 
+	height: 330px !important; 
+	width: 240px !important;
+	}
+
+.card-formacao{
+	max-height: 330px !important;
+	}
+
+.moldura{
+	width:240px !important;
+	}
+
+.card-verde .img-colorido {
+	max-height: 250px !important; 
+	height: 250px !important; 
+	width: 240px !important;
+	}
+		
+	.card-verde{
+	height: 250px !important;
+	}
+
+.card-bordo{
+	height: 330px !important;
+	}
+		
+	}
+.base-olimpiada div .card-verde h3 {display:none !important;}
