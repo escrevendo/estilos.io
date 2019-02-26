@@ -33,12 +33,15 @@
 		
 		.base-recursos .card-bordo .moldura, .base-olimpiada .card-verde .moldura, .base-formacao-continua .card-formacao .moldura{display:none !important;}
 		
+		
+		.base-olimpiada div .card-verde div:first-child, .base-recursos .card-bordo>a>div:first-child, .base-formacao-continua .card-formacao>a>div:first-child{height:auto;}
+		
 	}
 	
 	@media (min-width:990px){
 		
 		
-		.base-olimpiada div .card-verde div:first-child, .base-recursos .card-bordo>a>div:first-child, .base-formacao-continua .card-formacao>a>div:first-child{height:auto;}
+		
 		
 		
 		
