@@ -32,7 +32,7 @@ h2 {
 }
 
 h2 a {
-  font-weight: 700;
+  
   text-transform: uppercase;
   color: #FB667A;
   text-decoration: none;
@@ -42,7 +42,7 @@ h2 a {
 .yellow { color: #FFF842; }
 
 .container th h1 {
-	  font-weight: bold;
+	  
 	  font-size: 1em;
   text-align: left;
   color: #185875;
@@ -98,10 +98,8 @@ h2 a {
   color: #403E10;
 
   
- 
   
-  
-  transition-delay: 0s;
+  transition-delay: 0.4s;
 	  transition-duration: 0.4s;
 	  transition-property: all;
   transition-timing-function: line;
