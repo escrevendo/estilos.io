@@ -13,30 +13,7 @@
 
 
 
-h1 {
-  font-size:3em; 
-  font-weight: 300;
-  line-height:1em;
-  text-align: center;
-  color: #4DC3FA;
-}
 
-h2 {
-  font-size:1em; 
-  font-weight: 300;
-  text-align: center;
-  display: block;
-  line-height:1em;
-  padding-bottom: 2em;
-  color: #FB667A;
-}
-
-h2 a {
-  
-  text-transform: uppercase;
-  color: #FB667A;
-  text-decoration: none;
-}
 
 .blue { color: #185875; }
 .yellow { color: #FFF842; }
@@ -60,7 +37,7 @@ h2 a {
 	  width: 100%;
 	  margin: 0 auto;
   display: table;
-  padding: 0 0 8em 0;
+  padding: 0 0 4em 0;
 }
 
 .container td, .container th {
