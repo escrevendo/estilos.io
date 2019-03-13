@@ -19,12 +19,12 @@
   transition: max-height 0.5s ease, padding-bottom 0.5s ease;
 }
 .faq li.active .question {
-  color: #808080;
+  color: #4d4e4d;
   transition: color 0.5s ease;
 }
 .faq .answer {
   color: #090909;
-  font-family: serif;
+  
   font-size: 16px;
   line-height: 24px;
   max-height: 0;
@@ -60,11 +60,11 @@
   transform: rotate(180deg);
 }
 .faq .question {
-  color: #090909;
+  color: #913f98;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 800;
-  text-transform: uppercase;
+ 
   position: relative;
   cursor: pointer;
   padding: 20px 0;
