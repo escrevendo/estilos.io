@@ -128,13 +128,7 @@ body .progress_inner__step:hover:before {
   background: #1ea4ec;
 }
 
-body {
-  font-family: "Nunito", sans-serif;
-  background: #a6cde2;
-  color: #2e6c8e;
-  text-align: center;
-  font-weight: 900;
-}
+
 body .progress_inner {
   height: 200px;
   width: 700px;
