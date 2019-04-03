@@ -48,20 +48,20 @@ body {
 
 .steps-one,
 .steps-two,
-.steps-three {
+.steps-three, .steps-four {
   outline: 1px dashed rgba(0, 128, 0, 0);
 }
 @media screen and (max-width: 500px) {
   .steps-one,
   .steps-two,
-  .steps-three {
+  .steps-three, .steps-four {
     margin-left: -25px;
   }
 }
 @media screen and (min-width: 500px) {
   .steps-one,
   .steps-two,
-  .steps-three {
+  .steps-three, .steps-four {
     float: left;
     width: 33%;
     margin-top: -50px;
@@ -70,7 +70,7 @@ body {
 
 @media screen and (max-width: 500px) {
   .steps-one,
-  .steps-two {
+  .steps-two, .steps-three {
     padding-bottom: 40px;
   }
 }
@@ -83,12 +83,12 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-  .steps-three {
+  .steps-four {
     margin-bottom: -100%;
   }
 }
 @media screen and (min-width: 500px) {
-  .steps-three {
+  .steps-four {
     margin-left: 16.65%;
     margin-right: -16.65%;
   }
