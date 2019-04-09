@@ -32,7 +32,7 @@
   display: none;
 }
 .container .item input[type="checkbox"]:checked + label {
-  background-color: #00c255;
+  background-color: #005498;
   color: #FFF;
 }
 .container .item input[type="checkbox"]:checked + label:after {
