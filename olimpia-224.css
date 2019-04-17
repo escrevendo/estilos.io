@@ -134,7 +134,7 @@ Triangle breadcrumb
   .cd-breadcrumb.triangle li.current > * {
     /* selected step */
     color: #ffffff;
-    background-color: #96c03d;
+    background-color: #f2f2f2;
     border-color: #96c03d;
   }
   .cd-breadcrumb.triangle li:first-of-type > * {
@@ -258,7 +258,7 @@ Multi steps indicator
     margin: 0;
   }
   .cd-multi-steps li.visited::after {
-    background-color: #96c03d;
+    background-color: #f2f2f2;
   }
   .cd-multi-steps li > *, .cd-multi-steps li.current > * {
     position: relative;
@@ -292,7 +292,7 @@ Multi steps indicator
   }
   .cd-multi-steps.text-center li.current > *, .cd-multi-steps.text-center li.visited > * {
     color: #ffffff;
-    background-color: #96c03d;
+    background-color: #f2f2f2;
   }
   .cd-multi-steps.text-center.custom-icons li.visited a::before {
     /* change the custom icon for the visited item - check icon */
@@ -330,7 +330,7 @@ Multi steps indicator
   .cd-multi-steps.text-top li.visited > *::before,
   .cd-multi-steps.text-top li.current > *::before, .cd-multi-steps.text-bottom li.visited > *::before,
   .cd-multi-steps.text-bottom li.current > *::before {
-    background-color: #96c03d;
+    background-color: #f2f2f2;
   }
   .no-touch .cd-multi-steps.text-top a:hover, .no-touch .cd-multi-steps.text-bottom a:hover {
     color: #96c03d;
