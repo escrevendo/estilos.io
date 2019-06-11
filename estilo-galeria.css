@@ -156,7 +156,7 @@
 	.full {
 	  float: none;
 	  height: 600px !important;
-	  width: 970px;
+	  width: 939px;
 	  position: absolute;
 	  z-index: 2;
 	}
@@ -281,7 +281,7 @@
 	
 	@media (max-width: 1200px) {
 	  .full {
-	    width: 970px;
+	    width: 939px;
 	  }
 	}
 	
