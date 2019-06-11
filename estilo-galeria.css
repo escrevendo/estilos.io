@@ -57,23 +57,18 @@
 	}
 	
 	#boxOne {
-	  background-image: url('http://www.ucdenver.edu/SiteCollectionImages/GridGallery/imageOne.jpg');
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8281/img-20190525-wa0014.jpg');
 	}
 	
-	#boxEight {
-	  background-image: url('http://www.ucdenver.edu/SiteCollectionImages/GridGallery/imageEight.jpg');
-	}
+	
 	
 	#boxTwo {
-	  background-image: url('http://www.ucdenver.edu/SiteCollectionImages/GridGallery/imageTwo.jpg');
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8282/img-20190525-wa0025.jpg');
 	}
 	
-	#boxSeven {
-	  background-image: url('http://www.ucdenver.edu/SiteCollectionImages/GridGallery/imageSeven.jpg');
-	}
 	
 	#boxThree {
-	  background-image: url('http://www.ucdenver.edu/SiteCollectionImages/GridGallery/imageThree.jpg');
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8283/img-20190525-wa0030.jpg');
 	}
 	
 	#boxSix {
@@ -86,6 +81,14 @@
 	
 	#boxFive {
 	  background-image: url('http://www.ucdenver.edu/SiteCollectionImages/GridGallery/imageFive.jpg');
+	}
+	
+	#boxSeven {
+	  background-image: url('http://www.ucdenver.edu/SiteCollectionImages/GridGallery/imageSeven.jpg');
+	}
+	
+	#boxEight {
+	  background-image: url('http://www.ucdenver.edu/SiteCollectionImages/GridGallery/imageEight.jpg');
 	}
 	
 	.full {
