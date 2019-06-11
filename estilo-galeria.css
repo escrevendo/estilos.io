@@ -43,7 +43,7 @@
 	}
 	
 	#boxOne,
-	#boxTwo,#boxnove,#boxdez,#boxquinze,#boxdezesseis,#boxvinte, #boxvinteum {
+	#boxTwo,#boxnove,#boxdez,#boxvinte, #boxvinteum {
 	  height: 300px;
 	}
 	
@@ -52,7 +52,7 @@
 	#boxFive,
 	#boxSix,
 	#boxSeven,
-	#boxEight,#boxonze,#boxdoze,#boxtreze,#boxcatorze,#boxdezessete, #boxdezenove, #boxvintedois, #boxvintetres {
+	#boxEight,#boxonze,#boxdoze,#boxtreze,#boxcatorze,#boxdezessete, #boxdezenove, #boxvintedois, #boxvintetres,#boxquinze,#boxdezesseis {
 	  height: 150px;
 	}
 	
