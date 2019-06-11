@@ -43,16 +43,15 @@
 	}
 	
 	#boxOne,
-	#boxTwo,
-	#boxSeven,
-	#boxEight {
+	#boxTwo {
 	  height: 300px;
 	}
 	
 	#boxThree,
 	#boxFour,
 	#boxFive,
-	#boxSix {
+	#boxSix,#boxSeven,
+	#boxEight {
 	  height: 150px;
 	}
 	
