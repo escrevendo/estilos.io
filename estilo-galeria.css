@@ -52,7 +52,7 @@
 	#boxFive,
 	#boxSix,
 	#boxSeven,
-	#boxEight,#boxonze,#boxdoze,#boxtreze,#boxcatorze,#boxdezessete, #boxdezenove, #boxvintedois, #boxvintetres,#boxquinze,#boxdezesseis {
+	#boxEight,#boxonze,#boxdoze,#boxtreze,#boxcatorze,#boxdezessete, #boxdezenove, #boxvintedois, #boxvintetres,#boxquinze,#boxdezesseis,#box24,#box25,#box26,#box27,#box28,#box29,#box30,#box31,#box32,#box33,#box34,#box35,#box36,#box37,#box38,#box39,#box40,#box41,#box42,#box43,#box44,#box45,#box46,#box47,#box48,#box49,#box50,#box51,#box52,#box53 {
 	  height: 150px;
 	}
 	
@@ -152,6 +152,128 @@
 	#boxvintetres {
 	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8303/img-20190527-wa0006.jpg');
 	}
+	
+	#box24 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8332/ana-carolina-teles-da-silva-escola-estadual-municipalizada-sao-goncalo-rio-de-janeiro.jpg');
+	}
+	
+	#box25 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8333/cintya-rocha-lima-minharro-5-ano-d-cemeb-sao-miguel-arcanjo-varzea-paulista-sp.jpg');
+	}
+	
+	#box26 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8334/colegio-estadual-teotonio-vilela-feira-de-santana-ba-professora-consuelo-bittencourt-7-ano.JPG');
+	}
+	
+	#box27 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8335/colegio-evencia-brito-8-professora-ivanilde-carvalho.jpg');
+	}
+	
+	#box28 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8336/ee-prof-marlene-frattini-matao-sao-paulo-prof-janaina-dias-de-morais-coelho.jpeg');
+	}
+	
+	#box29 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8337/em-jose-alves-barreto-cmea-mato-escuro-5-distrito-sao-joao-da-barra-rj-professora-liliana.jpg');
+	}
+	
+	#box30 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8338/eeb-bulcao-viana-professora-giovana-da-silva-lima-praia-grande-santa-catarina.jpg');
+	}
+	
+	#box31 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8339/eeb-professora-maria-solange-lopes-de-borba-professora-giovana-da-silva-lima-praia-grande-santa-catarina.jpg');
+	}
+	
+	#box32 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8340/ensino-medio-da-escola-jose-de-almeida-maciel-pesqueira-pe.jpg');
+	}
+	
+	#box33 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8341/escola-elesbao-da-luz-de-brito-em-fartura-do-piaui-estado-do-piaui.jpg');
+	}
+	
+	#box34 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8342/escola-indigena.jpg');
+	}
+	
+	#box35 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8343/escola-municipal-ednaldo-ribeiro-sales-5-ano-professora-terezinha-moura.jpg');
+	}
+	
+	#box36 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8344/escola-municipal-engenheiro-carlos-rohm-ribeirao-pires-sp.jpg');
+	}
+	
+	#box37 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8345/escola-municipal-joao-felix-dos-reis-professora-elaine-almeida-e-josefa-meire-sousa.jpg');
+	}
+	
+	#box38 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8346/escola-municipal-placido-pita-5-ano-professora-josefa-ednir-marques.jpg');
+	}
+	
+	#box39 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8347/escola-municipal-placido-pita-municipio-de-ribeira-do-pombal-ba.jpg');
+	}
+	
+	#box40 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8348/escola-municipal-professor-sebastiao-vayego-de-carvalho-ouro-fino-paulista-ribeirao-pires-sp.jpg');
+	}
+	
+	#box41 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8349/escola-municipal-rui-barbosa-6-ano-professora-nadilma-matos.jpg');
+	}
+	
+	#box42 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8350/professora-valdiza-alves-gadelha-5-ano-emef-noel-alves-de-oliveira-municipio-de-vieiropolis-pb.jpg');
+	}
+	
+	#box43 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8351/maria-aguiar-de-f-lara-emeb-cel-francisco-rodrigues-barbosa-itatiba-sao-paulo.jpg');
+	}
+	
+	#box44 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8352/municipio-do-rio-de-janeiro-em-0817127-ayrton-senna-da-silva-professora-ana-lucia-campello-vieira.jpg');
+	}
+	
+	#box45 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8353/prof-getulio-nascimento.jpg');
+	}
+	
+	#box46 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8354/prof-vania-batista.jpg');
+	}
+	
+	#box47 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8355/professora-dulcinea-silva-jeronimo-escola-estadual-basilio-da-gama-tiradentes-minas-gerais.jpg');
+	}
+	
+	#box48 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8356/professora-grasiella-alves-escola-estadual-professora-hilda-de-souza-ferreira-campo-grande-ms-5-ano.jpg');
+	}
+	
+	#box49 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8357/professora-judileide-silva-morais-escola-macaria-giffoni-florania-rio-grande-do-norte.jpg');
+	}
+	
+	#box50 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8358/professora-margareth-lilian-ee-archimedes-bava-bertioga-sao-paulo.jpeg');
+	}
+	
+	#box51 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8359/professora-micheline-gomes-de-melo-eef-nossa-senhora-auxiliadora-carius-ceara.jpg');
+	}
+	
+	#box52 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8360/professora-valdiza-alves-gadelha-vieiropolis-pb.jpg');
+	}
+	
+	#box53 {
+	  background-image: url('https://www.escrevendoofuturo.org.br/arquivos/8361/professoras-aline-e-ana-paula-escola-estadual-carlos-nogueira-da-gama-reduto-minas-gerais.jpg');
+	}
+	
+
 	
 	.full {
 	  float: none;
