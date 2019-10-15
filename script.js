@@ -5378,7 +5378,7 @@ $(document).ready(function() {
   var dt = $('#historytab')
   .bind('dynatable:init', function(e, dynatable) {
         dynatable.queries.functions['datesearch'] = function(r, val) {
-          return r.date.toLowerCase().indexOf(val.toLowerCase()) > -1;
+          return r.Aluno.toLowerCase().indexOf(val.toLowerCase()) > -1;
         };  
         dynatable.queries.functions['statussearch'] = function(r, val) {
           return r.statusHTML.toLowerCase().indexOf(val.toLowerCase()) > -1;
