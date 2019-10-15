@@ -5381,10 +5381,22 @@ $(document).ready(function() {
           return r.Aluno.toLowerCase().indexOf(val.toLowerCase()) > -1;
         };  
         dynatable.queries.functions['statussearch'] = function(r, val) {
-          return r.statusHTML.toLowerCase().indexOf(val.toLowerCase()) > -1;
+          return r.Categoria.toLowerCase().indexOf(val.toLowerCase()) > -1;
         };
         dynatable.queries.functions['usersearch']=function(r, val) {
-          return r.user.toLowerCase().indexOf(val.toLowerCase()) > -1;
+          return r.Professor.toLowerCase().indexOf(val.toLowerCase()) > -1;
+        };
+		
+		dynatable.queries.functions['escolasearch']=function(r, val) {
+          return r.Escola.toLowerCase().indexOf(val.toLowerCase()) > -1;
+        };
+		
+		dynatable.queries.functions['ufsearch']=function(r, val) {
+          return r.UF.toLowerCase().indexOf(val.toLowerCase()) > -1;
+        };
+		
+		dynatable.queries.functions['municipiosearch']=function(r, val) {
+          return r.Municipio.toLowerCase().indexOf(val.toLowerCase()) > -1;
         };
   })
   .dynatable({
