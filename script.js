@@ -1929,6 +1929,14 @@ var d = [
     "Municipio": "Jundiá"
   },
   {
+    "Aluno": "Amanda Eduarda Xavier",
+    "Categoria": "Memórias literárias",
+    "Professor": "Cléves Chaves de Souza",
+    "Escola": "ESC MUN PROFESSORA AMELIA POLETTO HEPP",
+    "UF": "SC",
+    "Municipio": "Piratuba"
+  },
+  {
     "Aluno": "Amanda Ferreira Cardoso",
     "Categoria": "Crônica",
     "Professor": "MARIA JOSÉ DE SOUSA SILVA",
@@ -1948,7 +1956,7 @@ var d = [
     "Aluno": "AMANDA LARA SANTOS",
     "Categoria": "Crônica",
     "Professor": "Vanda Ferreira Borges",
-    "Escola": "EE DOUTOR ADIRON GONCALVES BOAVENTURA",
+    "Escola": "E. E. DOUTOR ADIRON GONCALVES BOAVENTURA",
     "UF": "MG",
     "Municipio": "Rio Paranaíba"
   },
@@ -1959,14 +1967,6 @@ var d = [
     "Escola": "EEEM PRESIDENTE CASTELO BRANCO SEDE",
     "UF": "PA",
     "Municipio": "Paragominas"
-  },
-  {
-    "Aluno": "Amanda Xavier",
-    "Categoria": "Memórias literárias",
-    "Professor": "Cléves Chaves de Souza",
-    "Escola": "ESC MUN PROFESSORA AMELIA POLETTO HEPP",
-    "UF": "SC",
-    "Municipio": "Piratuba"
   },
   {
     "Aluno": "Amanda Xavier da Silva",
@@ -2057,10 +2057,18 @@ var d = [
     "Municipio": "Colônia do Piauí"
   },
   {
+    "Aluno": "ANA JULIA BEZ BATTI CONTERATTO",
+    "Categoria": "Memórias literárias",
+    "Professor": "Adriamar Bez Batti Conteratto",
+    "Escola": "EEB VERONICA SENEM",
+    "UF": "SC",
+    "Municipio": "Galvão"
+  },
+  {
     "Aluno": "Ana Ketis de Carvalho",
     "Categoria": "Poema",
     "Professor": "Vilma da Silva Pecegueiro",
-    "Escola": "PAULO FREIRE EMEF",
+    "Escola": "E. M. E. F. PAULO FREIRE",
     "UF": "SP",
     "Municipio": "Americana"
   },
@@ -2107,7 +2115,7 @@ var d = [
   {
     "Aluno": "ANA PAULA BRIXNER KRUG",
     "Categoria": "Memórias literárias",
-    "Professor": "DEISE GONÇALVES DOS PASSOS GOMES",
+    "Professor": "Deise Gonçalves dos Passos Gomes",
     "Escola": "EMEF BERNARDO LEMKE",
     "UF": "RS",
     "Municipio": "Nova Hartz"
@@ -2163,7 +2171,7 @@ var d = [
   {
     "Aluno": "ANDRÉ FELIPE DA SILVA LIMA",
     "Categoria": "Crônica",
-    "Professor": "Núbia Cristina Pessoa de Queiroz",
+    "Professor": "Nubia Cristina Pessoa de Queiroz",
     "Escola": "E M ELISIARIO DIAS ENSINO FUNDAMENTAL",
     "UF": "RN",
     "Municipio": "São Miguel"
@@ -2252,7 +2260,7 @@ var d = [
     "Aluno": "Antônio José da Paixão & Evellyn Vitória Novais da Silva & Vitória Bernardo da Silva",
     "Categoria": "Documentário",
     "Professor": "Abel José Mendes",
-    "Escola": "BRAZ PASCHOALIN PREFEITO ETEC",
+    "Escola": "ETEC Prefeito Braz Paschoalin",
     "UF": "SP",
     "Municipio": "Jandira"
   },
@@ -2313,9 +2321,9 @@ var d = [
     "Municipio": "Orós"
   },
   {
-    "Aluno": "ÁUREA ANDRADE LAGE ALVES",
+    "Aluno": "Aurea Andrade Lage Alves",
     "Categoria": "Crônica",
-    "Professor": "Eliane Andrade Lage Alves",
+    "Professor": "Vaneice Pereira Alves",
     "Escola": "EE PONCIANO PEREIRA DA COSTA",
     "UF": "MG",
     "Municipio": "Ferros"
@@ -2563,7 +2571,7 @@ var d = [
   {
     "Aluno": "CLEIZY EMANUELLE LOPES DA SILVA",
     "Categoria": "Memórias literárias",
-    "Professor": "Eva Rodrigues da Silva",
+    "Professor": "Maria José Rodrigues dos Santos Silva",
     "Escola": "COLEGIO ULYSSES CAIRES DE BRITO",
     "UF": "BA",
     "Municipio": "Paramirim"
@@ -2755,10 +2763,18 @@ var d = [
   {
     "Aluno": "Ellen Maria Anizio da Silva",
     "Categoria": "Memórias literárias",
-    "Professor": "Ana de Fàtima Vieira da Silva",
+    "Professor": "Ana de Fatima Vieira dos Anjos",
     "Escola": "EMEIF ASCENDINO MOURA",
     "UF": "PB",
     "Municipio": "Matinhas"
+  },
+  {
+    "Aluno": "Ellen Thayanne Santos da Mata",
+    "Categoria": "Memórias literárias",
+    "Professor": "Iollanda da Costa Araujo",
+    "Escola": "CENTRO EDUCACIONAL MUNICIPAL MANOEL JOAQUIM DOS SANTOS",
+    "UF": "BA",
+    "Municipio": "Serra Dourada"
   },
   {
     "Aluno": "Eloís Eduardo dos Santos Martins & Raele Brito da Costa   & Thomaz Oliveira Bezerra de Menezes",
@@ -2787,7 +2803,7 @@ var d = [
   {
     "Aluno": "Emanuel Miguel Dias dos Santos",
     "Categoria": "Memórias literárias",
-    "Professor": "Edna Lopes dos Santos Faria",
+    "Professor": "Francyelle Oliveira Reis",
     "Escola": "EM Oilda Valeria Silveira Coelho",
     "UF": "MG",
     "Municipio": "Passos"
@@ -2865,7 +2881,7 @@ var d = [
     "Municipio": "Serra"
   },
   {
-    "Aluno": "Emilly Vitória M. da Silva",
+    "Aluno": "Emilly Vitória Menezes da Silva",
     "Categoria": "Memórias literárias",
     "Professor": "Ediléia de Oliveira Soares",
     "Escola": "EEEFM GOV JORGE TEIXEIRA DE OLIVEIRA",
@@ -2900,7 +2916,7 @@ var d = [
     "Aluno": "Estêvão Miguel Marques",
     "Categoria": "Poema",
     "Professor": "Thaís Ignês Reis de Souza Pagliarini",
-    "Escola": "MARCO ANTONIO LIBANO DOS SANTOS DR EMEB",
+    "Escola": "E.M.E.B MARCO ANTONIO LIBANO DOS SANTOS DR",
     "UF": "SP",
     "Municipio": "Itapira"
   },
@@ -3041,7 +3057,7 @@ var d = [
     "Municipio": "Brumado"
   },
   {
-    "Aluno": "Gabriel EUGÊNIO GOTARDO",
+    "Aluno": "GABRIEL EUGÊNIO GOTARDO",
     "Categoria": "Poema",
     "Professor": "Bruna Luiza Bolzani Mafessoni",
     "Escola": "VISAO DO FUTURO E R M EI EF",
@@ -3052,15 +3068,15 @@ var d = [
     "Aluno": "Gabriel Gomes Ferreira",
     "Categoria": "Artigo de opinião",
     "Professor": "Jaciene Ribeiro Soares",
-    "Escola": "",
-    "UF": "",
-    "Municipio": ""
+    "Escola": "ESC JOSE RIBAMAR BATISTA",
+    "UF": "AC",
+    "Municipio": "Rio Branco"
   },
   {
     "Aluno": "Gabriel Henrique de Freitas",
     "Categoria": "Memórias literárias",
     "Professor": "Andreia Lemes Donatti",
-    "Escola": "EM IRMA FILOMENA RABELO",
+    "Escola": "E. M. IRMA FILOMENA RABELO",
     "UF": "SC",
     "Municipio": "Treze Tílias"
   },
@@ -3105,7 +3121,7 @@ var d = [
     "Municipio": "Santa Rita do Araguaia"
   },
   {
-    "Aluno": "Geisy Taissa de Sousa Santos",
+    "Aluno": "Geizy Taissa de Souza Santos",
     "Categoria": "Crônica",
     "Professor": "Valdimiro da Rocha Neto",
     "Escola": "E.M.E.F ANTONIO OLIVEIRA SANTANA",
@@ -3297,14 +3313,6 @@ var d = [
     "Municipio": "Goianira"
   },
   {
-    "Aluno": "Hellen Thayanne Santos da Mata",
-    "Categoria": "Memórias literárias",
-    "Professor": "Iollanda da Costa Araujo",
-    "Escola": "CENTRO EDUCACIONAL MUNICIPAL MANOEL JOAQUIM DOS SANTOS",
-    "UF": "BA",
-    "Municipio": "Serra Dourada"
-  },
-  {
     "Aluno": "HELOISA APARECIDA RIBAS",
     "Categoria": "Poema",
     "Professor": "Luciana Aparecida Skibinski",
@@ -3316,7 +3324,7 @@ var d = [
     "Aluno": "HELOISA BERNARDO DE MOURA",
     "Categoria": "Poema",
     "Professor": "Antonio de Souza Braga",
-    "Escola": "EM SANTA ETELVINA",
+    "Escola": "E. M. SANTA ETELVINA",
     "UF": "AM",
     "Municipio": "Manaus"
   },
@@ -3324,7 +3332,7 @@ var d = [
     "Aluno": "Heloisa Della Justina & Vitoria Maria Schwan De Bonfin & Vitoria Maria Schwan De Bonfim",
     "Categoria": "Documentário",
     "Professor": "Giseli Fuchter Fuchs",
-    "Escola": "Escola de Educação Básica São Ludgero",
+    "Escola": "E.ME.E.B São Ludgero",
     "UF": "SC",
     "Municipio": "São Ludgero"
   },
@@ -3433,14 +3441,6 @@ var d = [
     "Municipio": "Colatina"
   },
   {
-    "Aluno": "Isabelle Pinho Baldoino Prates",
-    "Categoria": "Memórias literárias",
-    "Professor": "Elizabeth Aparecida de Mesquita",
-    "Escola": "VICTOR PADILHA PROFESSOR EMEF",
-    "UF": "SP",
-    "Municipio": "Sud Mennucci"
-  },
-  {
     "Aluno": "ISABELLI VICENTE CALIXTO",
     "Categoria": "Crônica",
     "Professor": "Lucilene Aparecida Spielmann Schnorr",
@@ -3547,21 +3547,13 @@ var d = [
   {
     "Aluno": "Jânisson Videira Ramos da Cunha",
     "Categoria": "Poema",
-    "Professor": "Ruthe Dias Lira",
+    "Professor": "Raquel Dias Lira da Silva",
     "Escola": "Escola Centro de Atendimento Infantil Vó Olga",
     "UF": "AP",
     "Municipio": "Mazagão"
   },
   {
-    "Aluno": "Jaqueline Farias Lobo",
-    "Categoria": "Memórias literárias",
-    "Professor": "Iracema Ramos da Palma",
-    "Escola": "E M FLORENTINO DOS SANTOS",
-    "UF": "BA",
-    "Municipio": "Jaguaripe"
-  },
-  {
-    "Aluno": "JASMYN DA SILVA OLIVEIRA",
+    "Aluno": "Jasmym da Silva Oliveira",
     "Categoria": "Poema",
     "Professor": "Angra Rocha Noleto",
     "Escola": "EM Gentil Ferreira Brito",
@@ -3595,7 +3587,7 @@ var d = [
   {
     "Aluno": "Jessica Vitoria da Silva Rocha",
     "Categoria": "Crônica",
-    "Professor": "CIINTHIA ANGÉLICA DA SILVA ALVES",
+    "Professor": "CINTHIA ANGELICA DA SILVA ALVES",
     "Escola": "E. E. SANTANA D´ ÁGUA LIMPA",
     "UF": "MT",
     "Municipio": "São José do Rio Claro"
@@ -3627,8 +3619,8 @@ var d = [
   {
     "Aluno": "João Paulo de Oliveira Moura",
     "Categoria": "Memórias literárias",
-    "Professor": "MARCLEIDE MARIA DA SILVA PINHEIRO",
-    "Escola": "ESC PRESBITERIANA DE CRUZEIRO DO SUL",
+    "Professor": "Marcleide Maria da Silva Pinheiro",
+    "Escola": "Escola Presbiteriana de Cruzeiro do Sul",
     "UF": "AC",
     "Municipio": "Cruzeiro do Sul"
   },
@@ -3644,7 +3636,7 @@ var d = [
     "Aluno": "João Vitor Brito Montel",
     "Categoria": "Poema",
     "Professor": "Walterlene Rocha de Miranda Silva",
-    "Escola": "UE JOSE QUEIROZ",
+    "Escola": "U. E. JOSE QUEIROZ",
     "UF": "MA",
     "Municipio": "Carolina"
   },
@@ -3652,7 +3644,7 @@ var d = [
     "Aluno": "JOÃO VITOR CRISTOFOLINI",
     "Categoria": "Memórias literárias",
     "Professor": "Assunta Gisele Manfrini Uller",
-    "Escola": "ESCOLA BASICA MUNICIPAL SANTO ANTONIO",
+    "Escola": "Escola Básica Municipal Santo Antônio",
     "UF": "SC",
     "Municipio": "Rodeio"
   },
@@ -3729,14 +3721,6 @@ var d = [
     "Municipio": "Nilópolis"
   },
   {
-    "Aluno": "Julia Aparecida dos Santos",
-    "Categoria": "Memórias literárias",
-    "Professor": "Sônia Aparecida Ribeiro Heckler",
-    "Escola": "EMEB PROF¬ LUCINDA MAROS PSCHEIDT",
-    "UF": "SC",
-    "Municipio": "Rio Negrinho"
-  },
-  {
     "Aluno": "Júlia Fernanda Teodoro Freire",
     "Categoria": "Memórias literárias",
     "Professor": "Maria José da Silva Souza",
@@ -3771,7 +3755,7 @@ var d = [
   {
     "Aluno": "Júlia Quérem Santana Machado",
     "Categoria": "Poema",
-    "Professor": "Dilza Zampaoni Congio",
+    "Professor": "Dilza de Fátima Zamparoni Congio",
     "Escola": "Escola Municipal 04 de Julho",
     "UF": "MT",
     "Municipio": "Campo Novo do Parecis"
@@ -3804,7 +3788,7 @@ var d = [
     "Aluno": "Kaiky da Silva Rosa",
     "Categoria": "Poema",
     "Professor": "Fabiola de Fatima Vicentim",
-    "Escola": "AFONSINA M SEBRENSKI E M EI EF",
+    "Escola": "EMEF Afonsina M Sebrenski",
     "UF": "PR",
     "Municipio": "Pitanga"
   },
@@ -3876,7 +3860,7 @@ var d = [
     "Aluno": "Keliane Florentino Pereira",
     "Categoria": "Memórias literárias",
     "Professor": "Maria Aparecida dos Santos",
-    "Escola": "EMEIF JOAQUIM ANTAS FLORENTINO",
+    "Escola": "E. M. E. I. F. JOAQUIM ANTAS FLORENTINO",
     "UF": "PB",
     "Municipio": "São José de Princesa"
   },
@@ -3903,6 +3887,14 @@ var d = [
     "Escola": "E.M. de 1º Grau de Campos de São João",
     "UF": "BA",
     "Municipio": "Palmeiras"
+  },
+  {
+    "Aluno": "Khetellyn Pereira Marciliano",
+    "Categoria": "Memórias literárias",
+    "Professor": "Elizabeth Aparecida de Mesquita",
+    "Escola": "VICTOR PADILHA PROFESSOR EMEF",
+    "UF": "SP",
+    "Municipio": "Sud Mennucci"
   },
   {
     "Aluno": "Kimberly Mendonça de Assunção",
@@ -4076,7 +4068,7 @@ var d = [
     "Aluno": "Lícia Marcele da Silva Santos",
     "Categoria": "Memórias literárias",
     "Professor": "JOSEVÂNIA FERREIRA DA SILVA",
-    "Escola": "ESCOLA MUNICIPAL DE EDUCACAO BASICA PREFEITO BENICIO FERREIRA REIS",
+    "Escola": "E.M.E.B PREFEITO BENICIO FERREIRA REIS",
     "UF": "AL",
     "Municipio": "Limoeiro de Anadia"
   },
@@ -4091,7 +4083,7 @@ var d = [
   {
     "Aluno": "Lirian José Mendes Sousa Neto",
     "Categoria": "Poema",
-    "Professor": "MARIA HELENA ARAUJO DE CARVALHO",
+    "Professor": "FABIANA DE SOUSA",
     "Escola": "UI BALAO MAGICO",
     "UF": "MA",
     "Municipio": "Lago Verde"
@@ -4193,10 +4185,10 @@ var d = [
     "Municipio": "Muricilândia"
   },
   {
-    "Aluno": "LUDMILA GABRIELLE CORRÊA",
+    "Aluno": "Ludimila Gabriele Correa",
     "Categoria": "Memórias literárias",
     "Professor": "Lucimar Aparecida Pimenta",
-    "Escola": "EE DOUTOR ADIRON GONCALVES BOAVENTURA",
+    "Escola": "E. E. DOUTOR ADIRON GONCALVES BOAVENTURA",
     "UF": "MG",
     "Municipio": "Rio Paranaíba"
   },
@@ -4244,7 +4236,7 @@ var d = [
     "Aluno": "Luiz Henrique Giordano Goulart",
     "Categoria": "Memórias literárias",
     "Professor": "Fabiane Aparecida Pereira",
-    "Escola": "ESC MUN EDUC BASICA PROF TADEU SILVEIRA",
+    "Escola": "EMEB Professor Tadeu Silveira",
     "UF": "RS",
     "Municipio": "Pinhal da Serra"
   },
@@ -4265,20 +4257,20 @@ var d = [
     "Municipio": "Caçador"
   },
   {
-    "Aluno": "Luiza da Rosa Machado",
-    "Categoria": "Memórias literárias",
-    "Professor": "ADELI JANICE DA SILVA",
-    "Escola": "EEEF MARQUES DE SOUZA",
-    "UF": "RS",
-    "Municipio": "São José do Norte"
-  },
-  {
     "Aluno": "Luiza Reis Ribeiro",
     "Categoria": "Memórias literárias",
     "Professor": "ANA LÚCIA PINHEIRO DA SILVA",
     "Escola": "RONDON MARECHAL",
     "UF": "SP",
     "Municipio": "São José dos Campos"
+  },
+  {
+    "Aluno": "Manuela Delazeri Dalbosco",
+    "Categoria": "Memórias literárias",
+    "Professor": "ADRIANA LÚCIA WEILER",
+    "Escola": "EMEF ANTONIO PARREIRAS",
+    "UF": "RS",
+    "Municipio": "Tio Hugo"
   },
   {
     "Aluno": "Marcel Aleixo da Silva",
@@ -4307,8 +4299,8 @@ var d = [
   {
     "Aluno": "Maria Alice Ferreira Simão",
     "Categoria": "Memórias literárias",
-    "Professor": "maria das graças alves pereira",
-    "Escola": "ESC MUL DESEMBARGADOR ARIMATEIA TITO",
+    "Professor": "Maria das Graças Alves Pereira",
+    "Escola": "E. M. DESEMBARGADOR ARIMATEIA TITO",
     "UF": "PI",
     "Municipio": "Barras"
   },
@@ -4467,7 +4459,7 @@ var d = [
   {
     "Aluno": "Mariana Medeiros de Carvalho",
     "Categoria": "Memórias literárias",
-    "Professor": "Maria de Fátima Cirino de Queiroz",
+    "Professor": "HELOIZA SIQUEIRA ANDRADE DA SILVA",
     "Escola": "ESC MUL CONEGO LUIZ GONZAGA V DE MELO",
     "UF": "PE",
     "Municipio": "Carnaíba"
@@ -4755,7 +4747,7 @@ var d = [
   {
     "Aluno": "Pedro Henrique da Cruz",
     "Categoria": "Crônica",
-    "Professor": "Claudia Elizabet Favero Bocalon",
+    "Professor": "Gissele Brezolin Ghidorsi",
     "Escola": "C.E.M MARCELINO IVO DALLA COSTA",
     "UF": "SC",
     "Municipio": "Água Doce"
@@ -4820,9 +4812,17 @@ var d = [
     "Aluno": "Rafael Gonçalves Ragazzo",
     "Categoria": "Poema",
     "Professor": "Wilza Luzia de Oliveira",
-    "Escola": "EM DEPUTADO JOAQUIM DE MELO FREIRE",
+    "Escola": "E. M. DEPUTADO JOAQUIM DE MELO FREIRE",
     "UF": "MG",
     "Municipio": "Guapé"
+  },
+  {
+    "Aluno": "Rafaelly Lisboa Barbosa",
+    "Categoria": "Memórias literárias",
+    "Professor": "Rita de Cassia Ferreira dos Santos Campos",
+    "Escola": "CENTRO EDUCACIONAL PROFESSORA MARIA DE LOURDES ALMEIDA VELOSO",
+    "UF": "BA",
+    "Municipio": "Entre Rios"
   },
   {
     "Aluno": "Ramon Henrique Nascimento da Fonseca",
@@ -4908,7 +4908,7 @@ var d = [
     "Aluno": "RORGEM JÚNIOR CARLOS MAURÍLIO",
     "Categoria": "Memórias literárias",
     "Professor": "Elaine Regina do Carmo",
-    "Escola": "ESCOLA MUNICIPAL MINISTRO EDMUNDO LINS",
+    "Escola": "EM Ministro Edmundo Lins",
     "UF": "MG",
     "Municipio": "Viçosa"
   },
@@ -5225,10 +5225,10 @@ var d = [
     "Municipio": "Corumbá"
   },
   {
-    "Aluno": "Vithor Rodrigues de Sousa",
+    "Aluno": "Víthor Rodrigues de Sousa",
     "Categoria": "Memórias literárias",
     "Professor": "Luciene Pereira",
-    "Escola": "CEF POLIVALENTE",
+    "Escola": "C. E. F. POLIVALENTE",
     "UF": "DF",
     "Municipio": "Brasília"
   },
@@ -5259,13 +5259,13 @@ var d = [
   {
     "Aluno": "Vitória Lima Gonçalves",
     "Categoria": "Memórias literárias",
-    "Professor": "Viviane dos Santos Silva Rêgo",
+    "Professor": "Viviane dos Santos Silva",
     "Escola": "ESCOLA ESTADUAL CUNHA BASTOS",
     "UF": "GO",
     "Municipio": "Rio Verde"
   },
   {
-    "Aluno": "Vitória Maria Pinheiro Cândido",
+    "Aluno": "Vitoria Maria Pinheiro Candido",
     "Categoria": "Crônica",
     "Professor": "Cleide Maria Grangeiro",
     "Escola": "EMEF JOSE ADRIANO DE ANDRADE",
@@ -5305,7 +5305,7 @@ var d = [
     "Municipio": "Japaratuba"
   },
   {
-    "Aluno": "Wanna Grabriely Silvino Lima",
+    "Aluno": "Wanna Gabriely Silvino Lima",
     "Categoria": "Crônica",
     "Professor": "JACIRA MARIA DA SILVA",
     "Escola": "ESCOLA MUNICIPAL DOUTOR JOSE HAROLDO DA COSTA",
