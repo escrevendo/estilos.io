@@ -1,22 +1,4 @@
-.wrapper {
-  margin: 30px auto;
-  width: 80%;
-  font-family: sans-serif;
-  color: #555;
-  font-size: 14px;
-  line-height: 24px;
-}
-h1 {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-}
-h1 + p {
-  text-align: center;
-  margin: 20px 0;
-  font-size: 16px;
-}
+
 .tabs li {
   float: left;
   width: 20%;
