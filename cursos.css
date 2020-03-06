@@ -1,225 +1,107 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400|Inconsolata);
-
-/////////////////
-// VARIABLES
-/////////////////
-
-$tab-count: 5;
-$menu-item-height: 46px;
-
-$color-primary-light: #e74c3c;
-$color-primary-dark: #c0392b;
-$color-text: #444444;
-
-$color-border: #dfdfdf;
-$color-border-top: $color-primary-dark;
-
-$color-label-bg-inactive: #ecf0f1;
-$color-label-bg-active: white;
-$color-label-active: $color-border-top;
-$color-label-inactive: #bdc3c7;
-
-$btn-border-top-thickness: 6px;
-
-$tab-padding: 24px;
-$tab-transition-duration: 200ms;
-$tab-base-border-style: 1px solid $color-border;
-$tab-trans-border-style: 1px solid transparent;
-
-$panel-transition-duration: 600ms;
-$main-padding: 48px 24px;
-$menu-padding: 12px 24px;
-
-/////////////////
-// ELEMENTS
-/////////////////
-
-// global list style
 ul#tabs-list {
   list-style: none;
   text-align: center;
-  border-bottom: $tab-base-border-style;
+  border-bottom: 1px solid #dfdfdf;
   margin: 0;
   padding: 0;
 }
 
-// global label style
 label.panel-label {
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   display: block;
   width: 100%;
-  color: $color-label-inactive;
+  color: #bdc3c7;
   cursor: pointer;
-  background-color: $color-label-bg-inactive;
+  background-color: #ecf0f1;
+  -webkit-transition-property: background-color, color;
   transition-property: background-color, color;
-  transition-duration: $tab-transition-duration;
-  // hover style
-  &:hover {
-    color: $color-label-active;
-  }
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+label.panel-label:hover {
+  color: #c0392b;
 }
 
-// global panel style
 #panels {
-  background-color: $color-label-bg-active;
-  .container {
-    margin: 0 auto;
-    width: 90%;
-  }
-  section {
-    header {
-      label.panel-label {
-        padding: $menu-padding;
-        box-sizing: border-box;
-      }
-    }
-    main {
-      box-sizing: border-box;
-      max-height: 0;
-      opacity: 0;
-      transition: opacity $panel-transition-duration;
-      overflow-y: hidden;
-    }
-  }
+  background-color: white;
+}
+#panels .container {
+  margin: 0 auto;
+  width: 90%;
+}
+#panels section header label.panel-label {
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+#panels section main {
+  box-sizing: border-box;
+  max-height: 0;
+  opacity: 0;
+  -webkit-transition: opacity 600ms;
+  transition: opacity 600ms;
+  overflow-y: hidden;
 }
 
-/////////////////
-// MIXINS
-/////////////////
-
-// tabs list style
-@mixin tabs-list-style {
-  text-align: center;
-  border-bottom: $tab-base-border-style;
-  // li child
-  li {
-    display: inline-block;
-    text-align: center;
-    font-size: 0.875em;
-    width: 100% / $tab-count - 2%;
-    box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.05);
-    border-right: $tab-base-border-style;
-    position: relative;
-    // hover
-    &:hover {
-      transition: none;
-      border-right: none;
-      // conditional transborder on last li
-      &.last {
-        border-right: $tab-trans-border-style;
-      }
-      & + li {
-        border-left: $tab-base-border-style;
-      }
-    }
-    // tab labels
-    label.panel-label {
-      position: relative;
-      padding: $tab-padding 0;
-      &::after {
-        content: "";
-        position: absolute;
-        width: 100%;
-        left: 0;
-        bottom: 100%;
-        background-color: $color-border-top;
-        height: 0;
-        transition-property: height;
-        transition-duration: $tab-transition-duration;
-      }
-      &:hover {
-        padding-top: $tab-padding + 1;
-        &::after {
-          height: $btn-border-top-thickness;
-        }
-      }
-    }
-  }
-}
-
-// global active label styles
-@mixin active-label {
-  background-color: $color-label-bg-active;
-  color: $color-border-top;
-}
-
-// active tab label style
-@mixin active-tab-label {
-  &::after {
-    height: $btn-border-top-thickness;
-  }
-  // add extra pixel for shifting li downward over border
-  padding-top: $tab-padding + 2;
-}
-
-// active tab li style
-@mixin active-tab-li-style {
-  pointer-events: none;
-  cursor: default;
-  // shift down over border. label has extra pixel in padding.
-  transform: translate3d(0, 1px, 0);
-  box-shadow: none;
-  border-right: none;
-  // conditional transborder on last li
-  &.last {
-    border-right: $tab-trans-border-style;
-  }
-  // next li border-left
-  & + li {
-    border-left: $tab-base-border-style;
-  }
-  label.panel-label {
-    @include active-label;
-    @include active-tab-label;
-  }
-}
-
-// active menu label style
-@mixin active-menu-label {
-  background-color: $color-label-active;
-  color: $color-label-bg-active;
-}
-
-// active menu li style
-@mixin active-menu-li-style {
-  max-height: $menu-item-height;
+#panel-1-ctrl:checked ~ #panels #panel-1 main {
+  max-height: initial;
   opacity: 1;
-  label.panel-label {
-    @include active-label;
-    @include active-menu-label;
-  }
+  padding: 48px 24px;
 }
 
-// active panel style
-@mixin active-panel-style {
-  main {
-    max-height: initial;
-    opacity: 1;
-    padding: $main-padding;
-  }
+#panel-2-ctrl:checked ~ #panels #panel-2 main {
+  max-height: initial;
+  opacity: 1;
+  padding: 48px 24px;
 }
 
-// panel toggling
-@for $i from 1 through $tab-count {
-  #panel-#{$i}-ctrl:checked ~ #panels #panel-#{$i} {
-    @include active-panel-style;
-  }
+#panel-3-ctrl:checked ~ #panels #panel-3 main {
+  max-height: initial;
+  opacity: 1;
+  padding: 48px 24px;
 }
 
-/////////////////
-// MEDIA QUERIES
-/////////////////
+#panel-4-ctrl:checked ~ #panels #panel-4 main {
+  max-height: initial;
+  opacity: 1;
+  padding: 48px 24px;
+}
 
-// small devices
+#panel-5-ctrl:checked ~ #panels #panel-5 main {
+  max-height: initial;
+  opacity: 1;
+  padding: 48px 24px;
+}
+
 @media all and (max-width: 767px) {
-  // displaying menu nav
-  @for $i from 1 through $tab-count {
-    #nav-ctrl:checked ~ #tabs-list #li-for-panel-#{$i} {
-      max-height: $menu-item-height;
-      opacity: 1;
-    }
+  #nav-ctrl:checked ~ #tabs-list #li-for-panel-1 {
+    max-height: 46px;
+    opacity: 1;
   }
-  // "show" open nav label when closed, hide when open
+
+  #nav-ctrl:checked ~ #tabs-list #li-for-panel-2 {
+    max-height: 46px;
+    opacity: 1;
+  }
+
+  #nav-ctrl:checked ~ #tabs-list #li-for-panel-3 {
+    max-height: 46px;
+    opacity: 1;
+  }
+
+  #nav-ctrl:checked ~ #tabs-list #li-for-panel-4 {
+    max-height: 46px;
+    opacity: 1;
+  }
+
+  #nav-ctrl:checked ~ #tabs-list #li-for-panel-5 {
+    max-height: 46px;
+    opacity: 1;
+  }
+
   #open-nav-label {
     display: block;
     position: absolute;
@@ -228,204 +110,412 @@ label.panel-label {
     bottom: 0;
     left: 0;
     cursor: pointer;
-    //background: rgba(0,0,0,0.6)
- 
   }
+
   #nav-ctrl:checked ~ #tabs-list #open-nav-label {
     display: none;
   }
-  // "show" close nav label when open, hide when closed
+
   #close-nav-label {
     display: block;
     max-height: 0;
     overflow-y: hidden;
-    background-color: $color-text;
-    color: $color-label-bg-inactive;
+    background-color: #444444;
+    color: #ecf0f1;
     padding: 0px;
-    transition: max-height $tab-transition-duration;
+    -webkit-transition: max-height 200ms;
+    transition: max-height 200ms;
     cursor: pointer;
     text-transform: uppercase;
     font-size: 12px;
     line-height: 22px;
     letter-spacing: 1px;
   }
+
   #nav-ctrl:checked ~ #tabs-list #close-nav-label {
     max-height: 36px;
     opacity: 1;
-    padding: $menu-padding;
+    padding: 12px 24px;
   }
-  // tabs list style
+
   #tabs-list {
     position: relative;
-    label.panel-label {
-      padding: $tab-padding / 2 0;
-    }
-    @for $i from 1 through $tab-count {
-      #li-for-panel-#{$i} {
-        max-height: 0;
-        overflow-y: hidden;
-        transition: max-height $tab-transition-duration;
-      }
-    }
   }
-  // tab controller triggering menu
-  @for $i from 1 through $tab-count {
-    #panel-#{$i}-ctrl:checked ~ #tabs-list #li-for-panel-#{$i} {
-      @include active-menu-li-style;
-    }
+  #tabs-list label.panel-label {
+    padding: 12px 0;
   }
-  #panels {
-    .container {
-      width: 100%;
-    }
-    section header {
-      display: block;
-    }
+  #tabs-list #li-for-panel-1 {
+    max-height: 0;
+    overflow-y: hidden;
+    -webkit-transition: max-height 200ms;
+    transition: max-height 200ms;
+  }
+  #tabs-list #li-for-panel-2 {
+    max-height: 0;
+    overflow-y: hidden;
+    -webkit-transition: max-height 200ms;
+    transition: max-height 200ms;
+  }
+  #tabs-list #li-for-panel-3 {
+    max-height: 0;
+    overflow-y: hidden;
+    -webkit-transition: max-height 200ms;
+    transition: max-height 200ms;
+  }
+  #tabs-list #li-for-panel-4 {
+    max-height: 0;
+    overflow-y: hidden;
+    -webkit-transition: max-height 200ms;
+    transition: max-height 200ms;
+  }
+  #tabs-list #li-for-panel-5 {
+    max-height: 0;
+    overflow-y: hidden;
+    -webkit-transition: max-height 200ms;
+    transition: max-height 200ms;
+  }
+
+  #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 label.panel-label {
+    background-color: white;
+    color: #c0392b;
+    background-color: #c0392b;
+    color: white;
+  }
+
+  #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 label.panel-label {
+    background-color: white;
+    color: #c0392b;
+    background-color: #c0392b;
+    color: white;
+  }
+
+  #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 label.panel-label {
+    background-color: white;
+    color: #c0392b;
+    background-color: #c0392b;
+    color: white;
+  }
+
+  #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 label.panel-label {
+    background-color: white;
+    color: #c0392b;
+    background-color: #c0392b;
+    color: white;
+  }
+
+  #panel-5-ctrl:checked ~ #tabs-list #li-for-panel-5 {
+    max-height: 46px;
+    opacity: 1;
+  }
+  #panel-5-ctrl:checked ~ #tabs-list #li-for-panel-5 label.panel-label {
+    background-color: white;
+    color: #c0392b;
+    background-color: #c0392b;
+    color: white;
+  }
+
+  #panels .container {
+    width: 100%;
+  }
+  #panels section header {
+    display: block;
   }
 }
-
-// big devices
 @media all and (min-width: 768px) {
-  // tab controller triggering tabs
-  @for $i from 1 through $tab-count {
-    #panel-#{$i}-ctrl:checked ~ #tabs-list #li-for-panel-#{$i} {
-      @include active-tab-li-style;
-    }
+  #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 {
+    pointer-events: none;
+    cursor: default;
+    -webkit-transform: translate3d(0, 1px, 0);
+            transform: translate3d(0, 1px, 0);
+    box-shadow: none;
+    border-right: none;
   }
-  // tabs list style
+  #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1.last {
+    border-right: 1px solid transparent;
+  }
+  #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 + li {
+    border-left: 1px solid #dfdfdf;
+  }
+  #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 label.panel-label {
+    background-color: white;
+    color: #c0392b;
+    padding-top: 26px;
+  }
+  #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 label.panel-label::after {
+    height: 6px;
+  }
+
+  #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 {
+    pointer-events: none;
+    cursor: default;
+    -webkit-transform: translate3d(0, 1px, 0);
+            transform: translate3d(0, 1px, 0);
+    box-shadow: none;
+    border-right: none;
+  }
+  #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2.last {
+    border-right: 1px solid transparent;
+  }
+  #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 + li {
+    border-left: 1px solid #dfdfdf;
+  }
+  #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 label.panel-label {
+    background-color: white;
+    color: #c0392b;
+    padding-top: 26px;
+  }
+  #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 label.panel-label::after {
+    height: 6px;
+  }
+
+  #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 {
+    pointer-events: none;
+    cursor: default;
+    -webkit-transform: translate3d(0, 1px, 0);
+            transform: translate3d(0, 1px, 0);
+    box-shadow: none;
+    border-right: none;
+  }
+  #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3.last {
+    border-right: 1px solid transparent;
+  }
+  #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 + li {
+    border-left: 1px solid #dfdfdf;
+  }
+  #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 label.panel-label {
+    background-color: white;
+    color: #c0392b;
+    padding-top: 26px;
+  }
+  #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 label.panel-label::after {
+    height: 6px;
+  }
+
+  #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 {
+    pointer-events: none;
+    cursor: default;
+    -webkit-transform: translate3d(0, 1px, 0);
+            transform: translate3d(0, 1px, 0);
+    box-shadow: none;
+    border-right: none;
+  }
+  #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4.last {
+    border-right: 1px solid transparent;
+  }
+  #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 + li {
+    border-left: 1px solid #dfdfdf;
+  }
+  #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 label.panel-label {
+    background-color: white;
+    color: #c0392b;
+    padding-top: 26px;
+  }
+  #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 label.panel-label::after {
+    height: 6px;
+  }
+
+  #panel-5-ctrl:checked ~ #tabs-list #li-for-panel-5 {
+    pointer-events: none;
+    cursor: default;
+    -webkit-transform: translate3d(0, 1px, 0);
+            transform: translate3d(0, 1px, 0);
+    box-shadow: none;
+    border-right: none;
+  }
+  #panel-5-ctrl:checked ~ #tabs-list #li-for-panel-5.last {
+    border-right: 1px solid transparent;
+  }
+  #panel-5-ctrl:checked ~ #tabs-list #li-for-panel-5 + li {
+    border-left: 1px solid #dfdfdf;
+  }
+  #panel-5-ctrl:checked ~ #tabs-list #li-for-panel-5 label.panel-label {
+    background-color: white;
+    color: #c0392b;
+    padding-top: 26px;
+  }
+  #panel-5-ctrl:checked ~ #tabs-list #li-for-panel-5 label.panel-label::after {
+    height: 6px;
+  }
+
   ul#tabs-list {
-    @include tabs-list-style;
+    text-align: center;
+    border-bottom: 1px solid #dfdfdf;
   }
-  // nav label
+  ul#tabs-list li {
+    display: inline-block;
+    text-align: center;
+    font-size: 0.875em;
+    width: 18%;
+    box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.05);
+    border-right: 1px solid #dfdfdf;
+    position: relative;
+  }
+  ul#tabs-list li:hover {
+    -webkit-transition: none;
+    transition: none;
+    border-right: none;
+  }
+  ul#tabs-list li:hover.last {
+    border-right: 1px solid transparent;
+  }
+  ul#tabs-list li:hover + li {
+    border-left: 1px solid #dfdfdf;
+  }
+  ul#tabs-list li label.panel-label {
+    position: relative;
+    padding: 24px 0;
+  }
+  ul#tabs-list li label.panel-label::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 100%;
+    background-color: #c0392b;
+    height: 0;
+    -webkit-transition-property: height;
+    transition-property: height;
+    -webkit-transition-duration: 200ms;
+            transition-duration: 200ms;
+  }
+  ul#tabs-list li label.panel-label:hover {
+    padding-top: 25px;
+  }
+  ul#tabs-list li label.panel-label:hover::after {
+    height: 6px;
+  }
+
   #open-nav-label,
   #close-nav-label {
     display: none;
   }
-  // nav checkbox
+
   #nav-ctrl {
     display: none;
   }
 }
-
-// real big devices
 @media all and (min-width: 900px) {
   main {
     width: 70%;
     margin: 0 auto;
   }
 }
-
-/////////////////
-// DEMO STYLES
-/////////////////
-
-// radios
 .panel-radios {
-  $width: 20px;
-  $offset: $width / 2;
-  $middle: ceil($tab-count / 2);
-  //display: none
   position: fixed;
   left: 50%;
   top: 10px;
-  width: $width;
+  width: 20px;
   opacity: 0.5;
   z-index: 99;
-  // conditionally centering at top of screen (cant have wrapper...ugh math)
-  @for $i from 1 through $tab-count {
-    @if $i < ceil($tab-count / 2) {
-      &:nth-child(#{$i}) {
-        transform: translateX(-1 * $width * ($middle - $i) - $offset);
-      }
-    }
-    @if $i == ceil($tab-count / 2) {
-      &:nth-child(#{$i}) {
-        transform: translateX(-1 * $offset);
-      }
-    }
-    @if $i > ceil($tab-count / 2) {
-      &:nth-child(#{$i}) {
-        transform: translateX($width * ($i - $middle) - $offset);
-      }
-    }
-  }
-  // menu checkbox
-  &:nth-child(#{$tab-count + 1}) {
-    top: 30px;
-    transform: translateX(-1 * $width / 2);
-    display: block;
-  }
+}
+.panel-radios:nth-child(1) {
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+}
+.panel-radios:nth-child(2) {
+  -webkit-transform: translateX(-30px);
+          transform: translateX(-30px);
+}
+.panel-radios:nth-child(3) {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+.panel-radios:nth-child(4) {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+.panel-radios:nth-child(5) {
+  -webkit-transform: translateX(30px);
+          transform: translateX(30px);
+}
+.panel-radios:nth-child(6) {
+  top: 30px;
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+  display: block;
 }
 
-// body
 body {
-  background: $color-primary-light;
-  color: $color-text;
+  background: #e74c3c;
+  color: #444444;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
 }
 
-//banner
 #introduction {
   width: 90%;
   margin: 0 auto;
-  padding: $main-padding;
+  padding: 48px 24px;
   color: white;
-  h1 {
-    font-weight: 300;
-    text-align: center;
-  }
+}
+#introduction h1 {
+  font-weight: 300;
+  text-align: center;
 }
 
-// content text formatting
-main {
-  h1 {
-    margin-top: 0;
-    font-weight: 300;
-    color: $color-primary-dark;
-  }
-  p {
-    line-height: 1.8;
-  }
-  hr {
-    margin: 12px 0;
-    border-top: $tab-base-border-style;
-  }
+main h1 {
+  margin-top: 0;
+  font-weight: 300;
+  color: #c0392b;
+}
+main p {
+  line-height: 1.8;
+}
+main hr {
+  margin: 12px 0;
+  border-top: 1px solid #dfdfdf;
 }
 
-// demo styles
 label.demo-label {
-  background-color: $color-primary-dark;
-  color: $color-label-bg-active;
+  background-color: #c0392b;
+  color: white;
   padding: 4px 8px;
   border-radius: 2px;
   cursor: pointer;
   display: inline-block;
-  user-select: none;
-  &:hover {
-    background-color: $color-primary-light;
-  }
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+label.demo-label:hover {
+  background-color: #e74c3c;
 }
 
 #demo-child-toggle {
   display: none;
-  &:checked ~ #demo-parent #demo-child {
-    color: $color-primary-dark;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
+}
+#demo-child-toggle:checked ~ #demo-parent #demo-child {
+  color: #c0392b;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 #demo-parent {
   margin-top: 8px;
 }
 
-// styling that code
 code,
 pre {
-  color: $color-primary-dark;
+  color: #c0392b;
   font-family: Inconsolata, "Andale Mono", Andale, monowidth;
-  background-color: $color-label-bg-inactive;
-  border: $tab-base-border-style;
+  background-color: #ecf0f1;
+  border: 1px solid #dfdfdf;
   border-radius: 2px;
 }
 
@@ -436,9 +526,8 @@ code {
 pre {
   padding: 12px;
   line-height: 1.6;
-  strong {
-    color: $color-text;
-    font-weight: normal;
-  }
 }
-
+pre strong {
+  color: #444444;
+  font-weight: normal;
+}
